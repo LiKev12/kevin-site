@@ -1,7 +1,6 @@
 import React from 'react';
 import './App.css';
 import { Layout, Header, Navigation, Drawer, Content } from 'react-mdl';
-import { Link } from 'react-router-dom';
 import LandingPage from './components/LandingPage';
 import AboutMe from './components/AboutMe';
 import Projects from './components/Projects';
@@ -15,15 +14,15 @@ function App() {
         <Layout>
             <Header className="header-color"title="Welcome!" scroll>
                 <Navigation>
-                    <a href="#">Home</a>
-                    <a href="#aboutme">About</a>
-                    <a href="#projects">Work</a>
-                    <a href="#contact">Contact</a>
+                    <a href="#home" style={{color: 'white !important'}}><b>Home</b></a>
+                    <a href="#aboutme"><b>About</b></a>
+                    <a href="#projects"><b>Work</b></a>
+                    <a href="#contact"><b>Contact</b></a>
                 </Navigation>
             </Header>
             <Drawer title="KeyWatch">
                 <Navigation>
-                    <a href="#">Home</a>
+                    <a href="#home">Home</a>
                     <a href="#aboutme">About</a>
                     <a href="#projects">Work</a>
                     <a href="#contact">Contact</a>

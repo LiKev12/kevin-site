@@ -5,6 +5,7 @@ export class TabNotesTable extends Component {
         return (
             <div>
             <table id="projectsTable">
+            <thead>
             <tr>
               <th>Project</th>
               <th>Category</th>
@@ -25,6 +26,7 @@ export class TabNotesTable extends Component {
               <td>School</td>
               <td>Tutoring coordination app</td>
             </tr>
+            </thead>
           </table>
             </div>
         )

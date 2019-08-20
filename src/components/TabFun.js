@@ -22,8 +22,8 @@ export class TabFun extends Component {
             Under construction
           </CardText>
           <CardActions border>
-            <Button colored>GitHub</Button>
-            <Button colored>Live Demo</Button>
+            <Button colored disabled>GitHub</Button>
+            <Button colored disabled>Live Demo</Button>
           </CardActions>
           <CardMenu style={{ color: "#fff" }}>
             <IconButton name="share" />
@@ -38,8 +38,8 @@ export class TabFun extends Component {
             Under construction
           </CardText>
           <CardActions border>
-            <Button colored>GitHub</Button>
-            <Button colored>Live Demo</Button>
+            <Button colored disabled>GitHub</Button>
+            <Button colored disabled>Live Demo</Button>
           </CardActions>
           <CardMenu style={{ color: "#fff" }}>
             <IconButton name="share" />
@@ -54,8 +54,8 @@ export class TabFun extends Component {
             Under construction
           </CardText>
           <CardActions border>
-            <Button colored>GitHub</Button>
-            <Button colored>Live Demo</Button>
+            <Button colored disabled>GitHub</Button>
+            <Button colored disabled>Live Demo</Button>
           </CardActions>
           <CardMenu style={{ color: "#fff" }}>
             <IconButton name="share" />

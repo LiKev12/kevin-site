@@ -18,7 +18,7 @@ class LandingPage extends Component{
                             <div className="banner-text">
                                 <h1>Kevin Li</h1>
                                 <hr/>
-                                <p>Expected to graduate May 2020 and looking for full-time software engineering roles!</p>
+                                <p>BS/MS student in Computer Science expected to graduate in 2020 and looking for full-time software engineering roles!</p>
 
                                 <div className="social-links">
                                     {/* Resume */}

@@ -8,7 +8,7 @@ export class TabNotes extends Component {
             <div className="projects-grid">
             {/* Project 1 */}
             <Card shadow={5} style={{ margin: 'auto', width: '36vw'}}>
-                <CardTitle style={{color: '#000000', height: '176px'}}>
+                <CardTitle style={{color: '#000000', height: '246px'}}>
                     <TabNotesTable />
                 </CardTitle>
                 <CardText style={{ marginLeft: '1vw' }}>

@@ -99,6 +99,11 @@
 
 a {
     text-decoration: none;
+    /* color: #2F80ED !important; */
+}
+
+.normalLink {
+    color: #2F80ED !important;
 }
 
 #projectsTable {

@@ -24,10 +24,10 @@ export class TabPersonal extends Component {
           </CardText>
           <CardActions border>
             <Button colored>
-              <a href="https://github.com/LiKev12/Solve24">GitHub</a>
+              <a href="https://github.com/LiKev12/Solve24" className="normalLink">GitHub</a>
             </Button>
             <Button colored>
-              <a href="https://solve-game-24.herokuapp.com/">Live Demo</a>
+              <a href="https://solve-game-24.herokuapp.com/" className="normalLink">Live Demo</a>
             </Button>
           </CardActions>
           <CardMenu style={{ color: "#fff" }}>
@@ -41,8 +41,8 @@ export class TabPersonal extends Component {
           </CardTitle>
           <CardText>Under construction</CardText>
           <CardActions border>
-            <Button colored>GitHub</Button>
-            <Button colored>Live Demo</Button>
+            <Button colored disabled>GitHub</Button>
+            <Button colored disabled>Live Demo</Button>
           </CardActions>
           <CardMenu style={{ color: "#fff" }}>
             <IconButton name="share" />
@@ -55,11 +55,11 @@ export class TabPersonal extends Component {
           </CardTitle>
           <CardText>Under construction</CardText>
           <CardActions border>
-            <Button colored>GitHub</Button>
-            <Button colored>Live Demo</Button>
+            <Button colored disabled>GitHub</Button>
+            <Button colored disabled>Live Demo</Button>
           </CardActions>
           <CardMenu style={{ color: "#fff" }}>
-            <IconButton name="share" />
+            <IconButton name="share" disabled/>
           </CardMenu>
         </Card>
       </div>
