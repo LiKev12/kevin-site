@@ -1,0 +1,175 @@
+/* uigradients.com/#Nepal */
+.header-color {
+    background: #56CCF2;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #2F80ED, #56CCF2);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #2F80ED, #56CCF2); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+    
+}
+
+.landing-grid {
+    background: #56CCF2;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #2F80ED, #56CCF2);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #2F80ED, #56CCF2); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+    
+  text-align: center;
+  /* position: fixed; */
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.projects-grid {
+  display: flex;
+}
+
+.avatar-img {
+  height: 250px;
+  padding-top: 5em;
+}
+
+.banner-text {
+  background-color: black;
+  opacity: 0.8;
+  width: 75%;
+  margin: auto;
+  border-radius: 10px;
+
+}
+
+.banner-text h1 {
+  font-size: 66px;
+  font-weight: bold;
+  color: white;
+}
+
+.banner-text hr {
+  border-top: 5px dashed white;
+  width: 50%;
+  margin: auto;
+}
+
+.banner-text p {
+  color: white;
+  font-size: 20px;
+  padding: 1em;
+}
+
+.social-links {
+  display: flex;
+  justify-content: space-between;
+  width: 50%;
+  margin: auto;
+}
+
+.social-links i {
+  color: white;
+  font-size: 5em;
+  padding: 8px;
+}
+
+.social-links p {
+  /* font-size: 40px; */
+  font-weight: bold;
+  color: white
+}
+
+.aboutme {
+  background-image: url(content/white_wall_hash.png);
+  color: black;
+  margin: auto;
+  width: 100%;
+  height: 200 px;
+  padding: 3em;
+}
+
+.aboutme h1 {
+  font-weight: bold;
+  font-size: 60px;
+}
+
+.aboutme p {
+  font-size: 30px;
+  /* padding: 1em; */
+  width: 70%;
+  line-height: 1.6;
+}
+
+a {
+    text-decoration: none;
+}
+
+#projectsTable {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    font: 12px;
+    border-collapse: collapse;
+    width: 32vw;
+    /* display: flex; */
+    align-items: center;
+    justify-content: center;
+    margin-left: 1vw;
+    margin-right: 1vw;
+  }
+  
+  #projectsTable td, #projectsTable th {
+    border: 1px solid #ddd;
+    padding: 8px;
+
+  }
+  
+  #projectsTable tr:nth-child(even){background-color: #f2f2f2;}
+  
+  #projectsTable tr:hover {background-color: #ddd;}
+  
+  #projectsTable th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: center;
+    background-color: #2F80ED;
+    color: white;
+  }
+
+  .Card {
+    min-width: 450;
+    margin: auto;
+  }
+
+  .CardTitle {
+      color: #fff !important;
+      height: 176px;
+  }
+
+  .BlankProject {
+    background: #2F80ED;
+  }
+
+  #PersonalA {
+      background: url(content/ProjectPersonalA.png)
+  }
+
+  #TeamA {
+      background: url(content/ProjectTeamA.png) center;
+  }
+
+  .contact {
+    background-image: url(content/white_wall_hash.png);
+    color: black;
+    margin: auto;
+    width: 100%;
+    height: 200 px;
+    padding: 3em;
+  }
+  
+  .contact h1 {
+    font-weight: bold;
+    font-size: 60px;
+  }
+  
+  .contact p {
+    font-size: 30px;
+    /* padding: 1em; */
+    width: 64%;
+    line-height: 1.6;
+  }
