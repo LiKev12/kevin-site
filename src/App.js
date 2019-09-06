@@ -1,6 +1,7 @@
 import React from 'react';
 import './App.css';
-import { Layout, Header, Navigation, Drawer, Content } from 'react-mdl';
+import { Layout, Header, Navigation, Content } from 'react-mdl';
+// import { Drawer } from 'react-mdl';
 import LandingPage from './components/LandingPage';
 import AboutMe from './components/AboutMe';
 import Projects from './components/Projects';
@@ -20,14 +21,14 @@ function App() {
                     <a href="#contact"><b>Contact</b></a>
                 </Navigation>
             </Header>
-            <Drawer title="KeyWatch">
+            {/*<Drawer title="Welcome!">
                 <Navigation>
                     <a href="#home">Home</a>
                     <a href="#aboutme">About</a>
                     <a href="#projects">Work</a>
                     <a href="#contact">Contact</a>
                     </Navigation>
-            </Drawer>
+            </Drawer>*/}
             <Content>
                 <div className="page-content" />
                 <LandingPage />

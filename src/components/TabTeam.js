@@ -24,10 +24,13 @@ export class TabTeam extends Component {
           </CardText>
           <CardActions border>
             <Button colored>
-                <a href="https://github.com/LiKev12/KeyWatch" className="normalLink">GitHub</a>
+                <a href="https://github.com/LiKev12/KeyWatch" target="_blank" rel="noopener noreferrer" className="normalLink">GitHub</a>
             </Button>
             <Button colored>
-                <a href="https://keywatch.kevinkli.now.sh/" className="normalLink">Live Demo</a>
+                <a href="https://keywatch.kevinkli.now.sh/" target="_blank" rel="noopener noreferrer" className="normalLink">Live Demo</a>
+            </Button>
+            <Button colored>
+                <a href="https://insights.samsung.com/2019/09/05/keywatch-samsung-breakthroughs-that-matter-award-winner/" target="_blank" rel="noopener noreferrer" className="normalLink">Blog Post</a>
             </Button>
           </CardActions>
           <CardMenu style={{ color: "#fff" }}>
